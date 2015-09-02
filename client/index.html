@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>chatterbox</title>
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- dependencies -->
+    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <!-- your scripts -->
+    <script src="env/config.js"></script>
+    <script src="scripts/app.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <h1>chatterbox</h1>
+      <label> Pick a room: <select name="rooms" id="roomSelect" onchange="changeFunc();">
+        <option class="room General">General</option>
+        <option class="room Random">Random</option>
+        <option class="room HRR8">HRR8</option>
+        <option class="room 4chan">4chan</option>
+        <option class="room Other">Other</option>
+      </select></label>
+      <form>
+        <input type="text" class="name" placeholder="Enter username">
+        <input type="text" class="message" placeholder="Type message">
+        <input type="submit" value="Submit">
+      </form>
+      <div id="chats"></div>
+      </div>
+    </div>
+
+  </body>
+</html>
