@@ -31,3 +31,4 @@ bower install
 
 The chatterbox should be running on:
 https://api.parse.com/1/classes/chatterbox
+(login required and provided by Hack Reactor)
