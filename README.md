@@ -2,6 +2,8 @@
 
 This is a chat web application based of the [Parse](https://parse.com/) platform. JQuery, Underscore, and AJAX are utilized to maintain a RESTful api and client/server http request.
 
+For local server see: [Chatterbox-server](https://github.com/vtapia5070/chatterbox-server)
+
 This is a project I completed as a student at [Hack Reactor Remote Beta](http://www.hackreactor.com/remote-beta). This project was worked on with a pair.
 
 ## Team
